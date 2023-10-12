@@ -739,31 +739,47 @@ ul {
   resize: none;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text:focus {
   border-color: #4d5ae5;
 }
 
+.checkbox-div {
+  margin-bottom: 24px;
+}
+
+.form-checkbox {
+visually-hidden;
+}
+
 .form-checkbox:checked {
-  color: #8e8f99;
+  
+}
+
+.checkbox {
+color: #8e8f99;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.2%;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
 .privacy_policy-logo-part {
-  color: #4d5ae5;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.2%;
-  letter-spacing: 0.04em;
-  text-decoration-line: underline;
+  height: 16px;
+  width: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   fill: transparent;
+  
 }
 .button {
   background: #4d5ae5;
