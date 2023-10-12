@@ -657,6 +657,7 @@ ul {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-btn-icon {
@@ -680,7 +681,7 @@ ul {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
