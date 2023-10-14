@@ -609,6 +609,7 @@ ul {
 /**==========================*/
 
 .backdrop .is-open {
+  display: block;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -617,7 +618,6 @@ ul {
   left: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: hidden;
   pointer-events: none;
 }
 
@@ -765,6 +765,12 @@ ul {
 .checkbox-div {
   margin-bottom: 24px;
   display: block;
+}
+
+.checkbox-input:checked + .checkbox > .privacy_policy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .checkbox-input:checked + .checkbox span {
