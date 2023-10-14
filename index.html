@@ -660,7 +660,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-comment">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -675,20 +675,18 @@
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
-              class="form-checkbox"
+              class="visually-hidden"
               value="true"
               required
             />
+
             <label class="checkbox" for="user-privacy">
+              <svg class="checkbox-svg" width="10" height="8">
+                <use href="./images/icons.svg#icon-Checkbox"></use>
+              </svg>
               I accept the terms and conditions of the
 
-              <span class="privacy_policy-logo-part">
-                <svg class="checkbox-svg" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Checkbox"></use>
-                </svg>
-
-                >Privacy Policy</span
-              >
+              <span class="privacy_policy-logo-part">Privacy Policy</span>
             </label>
           </div>
 
