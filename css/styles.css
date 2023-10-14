@@ -764,12 +764,6 @@ ul {
   fill: #f4f4fd;
 }
 
-input:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .checkbox {
   color: #8e8f99;
   font-size: 12px;
@@ -778,7 +772,7 @@ input:checked {
   letter-spacing: 0.04em;
 }
 
-.checkbox a {
+.checkbox-a {
   color: #4d5ae5;
   text-decoration: underline;
 }
